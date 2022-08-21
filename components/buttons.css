@@ -1,3 +1,8 @@
-.no-deco {
+a {
     text-decoration: none;
+}
+
+.btn-gradient {
+    display: flex;
+    
 }
