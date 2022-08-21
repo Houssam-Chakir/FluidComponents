@@ -1,3 +1,12 @@
+@import url(components/nav-bar.css);
+@import url(components/logo.css);
+@import url(components/buttons.css);
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+
+
