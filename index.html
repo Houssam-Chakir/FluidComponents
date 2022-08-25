@@ -11,17 +11,44 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3228489013.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="nav-bar">
       <div id="logo">FluidComponents</div>
       <ul class="nav-items">
-        <li class="nav-btn"><a class="btn-gradient" href="#">buttons</a></li>
-        <li class="nav-btn"><a class="btn-gradient" href="#">cards</a></li>
-        <li class="nav-btn"><a class="btn-gradient" href="#">banners</a></li>
-        <li class="nav-btn"><a class="btn-gradient" href="#">lists</a></li>
+        <li class="nav-btn"><a class="btn btn-ghost" href="#">buttons</a></li>
+        <li class="nav-btn"><a class="btn btn-ghost" href="#">cards</a></li>
+        <li class="nav-btn"><a class="btn btn-ghost" href="#">banners</a></li>
+        <li class="nav-btn"><a class="btn btn-ghost" href="#">lists</a></li>
       </ul>
+    </div>
+    <div class="content">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-action-bar">
+            <i class="fa-solid fa-circle close"></i>
+            <i class="fa-solid fa-circle inlarge"></i>
+            <i class="fa-solid fa-circle minimise"></i>
+          </div>
+          <h1>Give me money please!</h1>
+          <div class="btns">
+            <button class="btn btn-main">Just take it!</button>
+            <button class="btn btn-faded">How much</button>
+            <button class="btn btn-ghost">No thnx</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

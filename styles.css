@@ -1,12 +1,18 @@
 @import url(components/nav-bar.css);
 @import url(components/logo.css);
 @import url(components/buttons.css);
-
-
+@import url(components/card.css);
+@import url(components/grid.css);
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e6ebf2;
 }
 
-
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

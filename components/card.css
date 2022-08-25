@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .card {
+    background-color: #fafcfcff;
+    text-align: center;
+    margin: 20% auto;
+    height: fit-content;
+    min-width: 15rem;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px #0660b311;
+    padding: 0.5rem 2rem 1rem 2rem;
+  }
+  .card-action-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 0.3rem 0;
+  }
+  .card-action-bar i {
+    padding: 0.2rem 0.3rem;
+    color: #5098bf93;
+  }
+  .close:hover {
+    color: #f04f4fb2;
+  }
+  .inlarge:hover {
+    color: #3dbf7eb2;
+  }
+  .minimise:hover {
+    color: #008dc4b2;
+  }
+  
